@@ -1,0 +1,5 @@
+mount a windows file share in Linux
+
+create a directory in /mnt and apply permissions
+
+mount -t cifs //Windows_Server_address/file_share_name/ /mnt/shared  -o sec=ntlmssp,username=user,password=pass
